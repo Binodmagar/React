@@ -37,7 +37,7 @@ module:{
 		//for css files
 		{
 			test:/\.css$/,
-			exclude:/node_modules/,
+			// exclude:/node_modules/,
 			use:['style-loader','css-loader'] // to convert css to js
 		// from right first css loader second style loader
 		}
